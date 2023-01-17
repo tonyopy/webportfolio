@@ -5,23 +5,48 @@
 }
 body{
 	font-family: 'Open Sans', sans-serif;
+	background-color: gray;
+	
+
+
+  
 }
-#bg-image{
+.front-bg{
 	background-image: url(images/bg.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center;
-	height: 78vh;
+
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 97vh;
+
+}
+a{
+	color: #FFFFFF ;
+	text-decoration: none ; 
+
+
+}
+a:hover {
+    color:#FFFFFF; 
+    text-decoration:none ; 
+    cursor:pointer;  
 }
 
-.front-bg{
-	height: 89vh;
-	background-color: rgba(0, 0, 0, 0.5);
-}
 .text-color{
 	background-color: #494737;
 }
 .bg-color{
+	background-color: #DEDFEB;
 	
+}
+#project-bg-color{
+	background-color: #F7F8FF;
+}
+.project-pic{
+	width: 18rem;
+}
+}
+.contact-me{
+	background-color: #7B8FA1;
 }
 
