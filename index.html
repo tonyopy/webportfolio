@@ -11,20 +11,23 @@
 	<body>
 		<div class="front-bg">
 		<!-- Nav Bar -->
-			<nav class="navbar navbar-expand-lg">
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse text-center " id="navbarNavAltMarkup">
-			    <div class="navbar-nav">
-			      <a class="nav-link active" href="#top">Home <span class="sr-only">(current)</span></a>
-			      <a class="nav-link" href="#section_aboutme">About</a>
-			      <a class="nav-link" href="#section_projects">Projects</a>
-			      <a class="nav-link" href="#section_tools">Tools</a>
-			       <a class="nav-link" href="#contact-me">Contact</a>
-			    </div>
-			  </div>
-			</nav>
+			<ul class="nav justify-content-center">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#top">Home</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#section_aboutme">About</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="section_projects">Project</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#section_tools">Tools</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#contact">Contact</a>
+			  </li>
+			</ul>
 		<!-- End Of Nav Bar -->
 
 
@@ -53,9 +56,9 @@
 						<img src="./images/program-pic.webp" class="img-fluid">
 						
 					</div>
-					<div class="col-6 col-md-6 text-center">
-						<h3>My Introduction</h3>
-						<p>Im a Web Developers who works on implementing visual designs and layouts, integrating graphics and content, optimizing website performance and capacity, and testing to ensure solid performance across any type of computer, mobile or device screen.</p>
+					<div class="col-6 col-md-6 text-center container">
+						<h4 class="text-center">My Introduction</h4>
+						<p class="text-center">Im a Web Developers who works on implementing visual designs and layouts, integrating graphics and content, optimizing website performance and capacity, and testing to ensure solid performance across any type of computer, mobile or device screen.</p>
 					</div>
 				</div>
 			</div>
@@ -70,13 +73,13 @@
 			<div class="text-light rounded p-3 text-center" id="project-bg-color">
 					 	 		<h2 class="mb-1 text-dark">Projects</h2>
 					 	 		<!-- Projects Container Start -->
-					 	 		<div class="d-lg-flex justify-content-center p-md-5 ">
+					 	 		<div class="d-lg-flex text-center  p-md-5 ">
 					 	 			<!-- HTML CARD START -->
-					 	 			<div class="card bg-dark col-12 col-xl-4 mb-5 mb-xl-0 project-pic">
+					 	 			<div class="card col-12 col-md-3 col-xl-4 mb-5 mb-xl-0 project-pic">
 					 	 			  <img src="./images/frontend.png" class="card-img-top mt-3" alt="...">
 					 	 			  <div class="card-body">
-					 	 			    <h5 class="card-title">Front-end</h5>
-					 	 			    <p class="card-text">Responsible for implementing visual elements that users see and interact with in a web application
+					 	 			    <h5 class="card-title text-dark">Front-end</h5>
+					 	 			    <p class="card-text text-dark">Responsible for implementing visual elements that users see and interact with in a web application
 					 	 			   </p>
 					 	 			  </div>
 					 	 			  <div class="card-body">
@@ -85,11 +88,11 @@
 					 	 			</div>
 
 					 	 			<!-- HTML CARD END -->
-					 	 			<div class="card bg-dark col-12 col-xl-4 mb-5 mb-xl-0 mx-xl-3 project-pic" >
+					 	 			<div class="card col-12 col-md-3 col-xl-4 mb-5 mb-xl-0 mx-xl-3 project-pic" >
 					 	 			  <img src="./images/back-end.webp" class="card-img-top mt-3" alt="...">
 					 	 			  <div class="card-body">
-					 	 			    <h5 class="card-title">Back-end</h5>
-					 	 			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					 	 			    <h5 class="card-title text-dark">Back-end</h5>
+					 	 			    <p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					 	 			    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					 	 			   </p>
 					 	 			  </div>
@@ -101,11 +104,11 @@
 
 					 	 			<!-- NODE JS start -->
 
-					 	 			<div class="card bg-dark col-12 col-xl-4 mb-5 mb-xl-0 mx-xl-3 project-pic">
+					 	 			<div class="card  col-12 col-md-3 col-xl-4 mb-5 mb-xl-0 mx-xl-3 project-pic">
 					 	 			  <img src="./images/full-stack.png" class="card-img-top mt-3" alt="...">
 					 	 			  <div class="card-body">
-					 	 			    <h5 class="card-title">Full-stack</h5>
-					 	 			    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					 	 			    <h5 class="card-title text-dark">Full-stack</h5>
+					 	 			    <p class="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					 	 			    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					 	 			   </p>
 					 	 			  </div>
@@ -124,7 +127,7 @@
 
 			<!-- Tools Start -->
 
-			<section id="section_tools">
+			<section id="section_tools" class="container-fluid">
 
 			<div class="container">
 				<h3 class="text-center text-dark mt-5">Core Tools</h3>
@@ -177,15 +180,15 @@
 			    	<!-- Contact Me -->
 
 
-			    <div class="container-fluid bg-secondary">
-			    	<h2 class="text-light text-center">Contact me</h2>
+			    <div class="container-fluid bg-light p-4 mt-5" id="contact">
+			    	<h2 class="text-dark text-center">Contact me</h2>
 			    	<div class="row">
-			    		<div class="col-12 col-md-6">
+			    		<div class="col-12 col-md-6 map mx-auto">
 
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15472.028099985027!2d121.11960038034456!3d14.194366843645978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd639c19c83d87%3A0xb8b33c31962c1a02!2sBarandal%2C%20Calamba%2C%204027%20Laguna!5e0!3m2!1sen!2sph!4v1673960303666!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15472.028099985027!2d121.11960038034456!3d14.194366843645978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd639c19c83d87%3A0xb8b33c31962c1a02!2sBarandal%2C%20Calamba%2C%204027%20Laguna!5e0!3m2!1sen!2sph!4v1673960303666!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			 			</div>
-					 	 <form class="col-12 col-md-5 bg-info p-1 rounded" >
+					 	 <form class="bg-contact col-12 col-md-5 p-1 rounded">
 					 	 			  <div class="form-group">
 					 	 			    <label class="text-light" for="full_name">Full Name</label>
 					 	 			    <input type="text" class="form-control" id="full_name" placeholder="Your Full Name">
@@ -237,6 +240,63 @@
 
 
 					 	 	</div>
+					<div class="container-fluid">
+					  
+					  <!-- Footer starts -->
+					  
+					  <footer
+					          class="text-center text-lg-start text-white">
+				
+					    <div class="container p-4 pb-0">
+					      
+					      <section class="">
+					        
+					        <div class="row">
+
+
+					          <hr class="w-100 d-md-none" />
+
+					          <!-- Grid column -->
+					          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+					            <h6 class="text-uppercase mb-4 font-weight-bold">
+					             Profile
+					            </h6>
+					            <p>
+					              <a  href="#top"class="text-white">Home</a>
+					            </p>
+					            <p>
+					              <a href="#section_aboutme" class="text-white">About</a>
+					            </p>
+					            <p>
+					              <a href="#section_projects"  class="text-white">Projects</a>
+					            </p>
+					            <p>
+					              <a href="#section_tools" class="text-white">Tools</a>
+					            </p>
+					            <p>
+					              <a href="#contact-me" class="text-white">Contact</a>
+					            </p>
+					          </div>
+
+					         
+					          <hr class="w-100  d-md-none" />
+
+					          <!-- Grid column -->
+					          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+					            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+					            <p>Calamba Laguna Philippines</p>
+					            <p>mark.anthony.dagon30@gmail.com</p>
+					            <p> +63 9669452588</p>
+					          </div>
+					         
+					        </div>
+					        
+					      </section>
+					    </div>
+
+					  </footer>
+					  <!-- footer end -->
+					</div>
 			
 			    </div>
 			</div>

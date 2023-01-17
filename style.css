@@ -3,21 +3,22 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
-	font-family: 'Open Sans', sans-serif;
-	background-color: gray;
-	
+	font-family: 'Open Sans', sans-serif;	
 
 
   
 }
 .front-bg{
 	background-image: url(images/bg.jpg);
-	background-repeat: no-repeat;
-	background-size: 100%;
+	min-height: 100%;
+  	background-position: center;
+  	background-size: cover;
 
 	background-color: rgba(0, 0, 0, 0.5);
-	height: 97vh;
 
 }
 a{
@@ -27,7 +28,7 @@ a{
 
 }
 a:hover {
-    color:#FFFFFF; 
+    color:#87A7E1; 
     text-decoration:none ; 
     cursor:pointer;  
 }
@@ -40,7 +41,7 @@ a:hover {
 	
 }
 #project-bg-color{
-	background-color: #F7F8FF;
+	background-color: #A8AB86;
 }
 .project-pic{
 	width: 18rem;
@@ -49,4 +50,22 @@ a:hover {
 .contact-me{
 	background-color: #7B8FA1;
 }
-
+.map{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.bg-contact{
+	background-color: #A7B199;
+}
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+footer{
+	 background-color: #45526e;
+}
