@@ -8,9 +8,8 @@ html{
 }
 body{
 	font-family: 'Open Sans', sans-serif;	
-
-
-  
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100vh;  
 }
 .front-bg{
 	background-image: url(images/bg.jpg);
@@ -18,8 +17,7 @@ body{
   	background-position: center;
   	background-size: cover;
 
-	background-color: rgba(0, 0, 0, 0.5);
-
+	
 }
 a{
 	color: #FFFFFF ;
